@@ -1,0 +1,173 @@
+[
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "自制",
+    "bookSourceName": "无限小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xp7000.com/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1627736732228,
+    "ruleBookInfo": {
+      "author": "class.tab@p.0@text##作者：",
+      "coverUrl": "img@src",
+      "kind": "class.p4@text",
+      "lastChapter": "class.p3@a@text",
+      "name": ""
+    },
+    "ruleContent": {
+      "content": "id.novelcontent@textNodes",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "a.2@text",
+      "bookList": "class.search_list",
+      "bookUrl": "a.0@href",
+      "lastChapter": "a.1@text",
+      "name": "a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.info_chapters@ul.1@li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "https://m.xp7000.com/book/search.aspx,{\n'method': 'POST',\n'body': 'key={{key}}&type=articlename'\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "自制",
+    "bookSourceName": "下书久久",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xiashu9.com/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "exploreUrl": "[{\"title\":\"总排行榜\",\"url\":\"/rank/allvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"月排行榜\",\"url\":\"/rank/monthvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"周排行榜\",\"url\":\"/rank/weekvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"日排行榜\",\"url\":\"/rank/dayvisit/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总收藏榜\",\"url\":\"/rank/goodnum/\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"这是空的\",\"url\":\"\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "lastUpdateTime": 1627779772705,
+    "ruleBookInfo": {
+      "author": "p.0@a@text",
+      "coverUrl": "tag.img@src",
+      "intro": "id.bookintro@text",
+      "kind": "p.1@text##分类：",
+      "name": "",
+      "wordCount": "p.3@text##字数："
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.book-author@text",
+      "bookList": "class.book-li",
+      "bookUrl": "a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.book-desc@text",
+      "kind": "class.tag-small@text",
+      "name": "class.book-title@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@dl@a!0:1:2:3:4:5:6:7:8:9",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.xiashu9.com/search/,{\n'method': 'POST',\n'body': 'searchkey={{key}}&searchtype=all'\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "自制",
+    "bookSourceName": "帝尊小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dizun.cc/",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1627795401549,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "span.0@a@text",
+      "coverUrl": "img@src",
+      "intro": "class.info-intro@p@text",
+      "lastChapter": "span.1@a@text",
+      "name": "class.info@h1@text"
+    },
+    "ruleContent": {
+      "content": "id.article@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "h3.1@text",
+      "bookList": "class.item",
+      "bookUrl": "h3@a@href",
+      "coverUrl": "img@src",
+      "intro": "dd@text",
+      "name": "h3.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.info-chapters@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.dizun.cc/search/,{\"method\":\"POST\",\"body\":\"searchkey={{key}}&searchtype=all\"}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "自制",
+    "bookSourceName": "造化图",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zaohuatu.com/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市青春\",\"url\":\"/xianxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠仙侠\",\"url\":\"/dushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/lishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生言情\",\"url\":\"/yanqing/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游竞技\",\"url\":\"/youxi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻灵异\",\"url\":\"/kehuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"综合其他\",\"url\":\"/qita/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总点击榜\",\"url\":\"http://www.zaohuatu.com/top_allvisit/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"月点击榜\",\"url\":\"http://www.zaohuatu.com/top_monthvisit/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总推荐榜\",\"url\":\"http://www.zaohuatu.com/top_allvote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总月票榜\",\"url\":\"http://www.zaohuatu.com/top_allvipvote/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"总鲜花榜\",\"url\":\"http://www.zaohuatu.com/top_allflower/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"月勤更榜\",\"url\":\"http://www.zaohuatu.com/top_monthwords/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"最近更新\",\"url\":\"http://www.zaohuatu.com/top_lastupdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"最新入库\",\"url\":\"http://www.zaohuatu.com/top_postdate/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"收藏榜\",\"url\":\"http://www.zaohuatu.com/top_goodnum/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"字数榜\",\"url\":\"http://www.zaohuatu.com/top_words/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "header": "{\n    'User-Agent': 'Mozilla/5.0 (Linux; Android 10.0; wv) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/4.0 Chrome/58.0.3029.110 Mobile Safari/537.36 T7/10.3 SearchCraft/2.6.2 (Baidu; P1 7.0)'\n }",
+    "lastUpdateTime": 1627804825756,
+    "ruleBookInfo": {
+      "author": "class.mb15@span.0@text",
+      "intro": "class.pr@p.1@text",
+      "kind": "class.mb15@span.1@text",
+      "lastChapter": "class.fs16@b@text",
+      "name": "h1@text",
+      "tocUrl": "class.w33p@href",
+      "wordCount": "class.mb15@span.3@text"
+    },
+    "ruleContent": {
+      "content": "id.TextContent@textNodes",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "bookList": "class.g_col_6",
+      "bookUrl": "a.0@href",
+      "coverUrl": "img@ _src",
+      "intro": "a.1@text",
+      "name": "h2@text"
+    },
+    "ruleSearch": {
+      "author": "span.1@text",
+      "bookList": "class.ser-ret@li",
+      "bookUrl": "h3@a@href",
+      "coverUrl": "img@_src",
+      "intro": "p.0@text",
+      "kind": "span.0@text",
+      "lastChapter": "span.2@a@text",
+      "name": "h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.w33p@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.zaohuatu.com/search.html,{\n'method': 'POST',\n'body': 'searchkey={{key}}'\n}",
+    "weight": 0
+  }
+]
