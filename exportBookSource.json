@@ -6479,5 +6479,59 @@
     },
     "searchUrl": "https://www.5200wx.com/index.php?s=/web/index/search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}",
     "weight": 0
-  }
+  },
+{
+    "bookSourceUrl": "https://www.danpang.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "✐  蛋胖小说",
+    "bookSourceGroup": "☃ 自用",
+    "bookSourceComment": "By 糖果",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "https://www.danpang.com/search.html,{\"method\":\"POST\",\"body\":\"searchkey={{key}}\"}",
+    "exploreUrl": "[{\"title\":\"玄幻奇幻\",\"url\":\"/xuanhuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"都市青春\",\"url\":\"/dushi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"武侠仙侠\",\"url\":\"/xianxia/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"历史军事\",\"url\":\"/lishi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"女生言情\",\"url\":\"/yanqing/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"网游竞技\",\"url\":\"/youxi/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"科幻灵异\",\"url\":\"/kehuan/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"轻小说の\",\"url\":\"/2cy/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}},{\"title\":\"综合其他\",\"url\":\"/zonghe/{{page}}.html\",\"style\":{\"layout_flexGrow\":1,\"layout_flexBasisPercent\":0.25}}]",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1628385073047,
+    "ruleSearch": {
+        "bookList": "id.hism",
+        "name": "h3@text",
+        "author": "span.1@text",
+        "kind": "span.0@text",
+        "lastChapter": "span.2@a@text",
+        "intro": "p.0@text",
+        "coverUrl": "img@src",
+        "bookUrl": "a.0@href"
+    },
+    "ruleExplore": {
+        "bookList": "class.g_col_6",
+        "name": "h2@text",
+        "author": "span.0@text",
+        "kind": "span.1@text",
+        "intro": "a.1@text",
+        "coverUrl": "img@src",
+        "bookUrl": "a.0@href"
+    },
+    "ruleBookInfo": {
+        "name": "class.pr.1@h1@text",
+        "author": "class.pr@span.0@text",
+        "kind": "span.1@text",
+        "wordCount": "span.3@text",
+        "lastChapter": "id.Contents@a.0@text",
+        "intro": "class.pr@p.1@text",
+        "coverUrl": "img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.w33p@a",
+        "chapterName": "text",
+        "chapterUrl": "href",
+        "nextTocUrl": "text.查看更多章节@href"
+    },
+    "ruleContent": {
+        "content": "id.TextContent@html##记住本站.*"
+    }
+}
 ]
