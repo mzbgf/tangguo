@@ -7353,48 +7353,6 @@
     "weight": 0
   },
   {
-    "bookSourceComment": "",
-    "bookSourceGroup": "ଲ  淑女",
-    "bookSourceName": "🤶🏻 wushuwu",
-    "bookSourceType": 0,
-    "bookSourceUrl": "http://www.wushuwu.net",
-    "bookUrlPattern": "",
-    "customOrder": 430,
-    "enabled": true,
-    "enabledExplore": false,
-    "exploreUrl": "",
-    "header": "",
-    "lastUpdateTime": 1626780541465,
-    "loginUrl": "",
-    "ruleBookInfo": {
-      "author": "",
-      "intro": "class.mod book-intro@class.bd@text"
-    },
-    "ruleContent": {
-      "content": "@js:\ncontent={\n    childNode:[],\n    childNodes:[],\n    UpWz:function(m, i) {\n        var k = Math.ceil((i + 1) % this.code);\n        k = Math.ceil(m - k);\n        return k\n    },\n    load:function(){\nnrid=result.match(/nrid=\"([^\"]+)\";/)[1];\nthis.childNodes=java.getElements(\"#\"+nrid+\"@p\").toArray();\njava.log(\"#\"+nrid)\n  this.code=result.match(/codeurl=\"(\\d+)\"/)[1];\n        var e =String(java.base64Decode(java.getString('[name=client]@content',!1))).split(/[A-Z]+%/);\n\n        for (var i = 0; i < e.length; i++) {\n            var k = this.UpWz(e[i], i);\n            this.childNode[k]=this.childNodes[i]\n        }}\n}\neval(String(java.ajax(\"http://www.wushuwu.net/js/cryptojs_min.js\")));\n\tfunction d(a, b) {\n\t\tb = CryptoJS.MD5(b).toString();\n\t\tvar d = CryptoJS.enc.Utf8.parse(b.substring(0, 16));\n\t\tvar e = CryptoJS.enc.Utf8.parse(b.substring(16));\n\t\treturn CryptoJS.AES.decrypt(a, e, { iv: d, padding: CryptoJS.pad.Pkcs7 }).toString(CryptoJS.enc.Utf8)\n\t}\n\nif(baseUrl.match(/_2/)){\ncontent.load();\nresult=content.childNode.join(\"<br>\");\n}else if(result.match(/\\$\\('#.*?'\\)\\.html\\(d\\(\"/)){\nresult=eval(result.match(/\\$\\('#.*?'\\)\\.html\\((d\\(\"[\\s\\S]+?\"\\))/)[1])\n}else{\nresult=java.getElements(\"@@id.contentinfo\")\n}",
-      "nextContentUrl": ".chapterPages@a!0@href##.*?(\\d+),(\\d+),(\\d+),(\\d+).*##/$1/$2/$3_$4.html"
-    },
-    "ruleExplore": {
-      "author": ""
-    },
-    "ruleSearch": {
-      "author": "class.info@a@text",
-      "bookList": ".column-2",
-      "bookUrl": "tag.a.0@href",
-      "lastChapter": "tag.a.1@text",
-      "name": "tag.a.0@text",
-      "wordCount": "class.right@tag.p.1@tag.span@text"
-    },
-    "ruleToc": {
-      "chapterList": "class.list.1@tag.li\n<js>\nresult=result.toArray().reverse();\nresult=result.join('')\n</js>\nli",
-      "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href##.*?\\('(\\d+)','(\\d+)','(\\d+)'\\).*##/$1/$2/$3.html",
-      "nextTocUrl": "@js:\npage=result.match(/\\(\\d+\\/(\\d+)\\)20\\/页/)[1];\nlist=[];\nfor(i=2;i<=page;i++){\nlist.push(baseUrl.replace(/\\/$/,'_'+String(i)+'/'))\n}\nlist"
-    },
-    "searchUrl": "http://www.wushuwu.net/s.html,{\n  \"method\": \"POST\",\n  \"body\": \"objectType=2&wd={{key}}\"\n}",
-    "weight": 0
-  },
-  {
     "bookSourceComment": "源时卡时不卡，发现不卡时可以加载出\n\n如果发现能加载出，则大概率正常使用\n\n搜索可用\n\nBy 糖果",
     "bookSourceGroup": "自制,ଲ  淑女",
     "bookSourceName": "🤶🏻  肉肉书",
