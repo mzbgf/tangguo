@@ -2022,55 +2022,6 @@
     "weight": 0
   },
   {
-    "bookSourceComment": "耽美小说",
-    "bookSourceGroup": "☃ 自用",
-    "bookSourceName": "✐  一纸倾城",
-    "bookSourceType": 0,
-    "bookSourceUrl": "https://www.yizhiqc.com",
-    "bookUrlPattern": "",
-    "customOrder": -161037,
-    "enabled": true,
-    "enabledExplore": false,
-    "exploreUrl": "",
-    "header": "",
-    "lastUpdateTime": 1628051713608,
-    "loginUrl": "",
-    "ruleBookInfo": {
-      "author": "writerName",
-      "coverUrl": "bookImage",
-      "init": "data.bookListInfo",
-      "intro": "bookIntroduction",
-      "kind": "classificationName",
-      "lastChapter": "{{$.lastUpdateChapterName}}·{{java.timeFormat(java.getString('$.lastUpdateTime'))}}",
-      "name": "bookName",
-      "tocUrl": "/api/books-volumeChapterList/{{$.bookId}}",
-      "wordCount": "bookWorldCount"
-    },
-    "ruleContent": {
-      "content": "<js>baseUrl</js>##\\w{8}(-\\w{4}){3}-\\w{12}##<br>",
-      "replaceRegex": "##https://www.baidu.com/"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
-      "author": "writerName",
-      "bookList": "data.list",
-      "bookUrl": "/api/book-bookInfo,{\"method\":\"POST\",\"body\":\"bookid={{$.bookId}}\"}",
-      "coverUrl": "bookImage",
-      "intro": "bookIntroduction",
-      "kind": "classificationName",
-      "lastChapter": "{{$.lastUpdateChapterName}}·{{java.timeFormat(java.getString('$.lastUpdateTime'))}}",
-      "name": "bookName",
-      "wordCount": "bookWorldCount"
-    },
-    "ruleToc": {
-      "chapterList": "data.chapterInfo[*].resultList[*]",
-      "chapterName": "chapterTitle",
-      "chapterUrl": "chapterContent@js:'https://www.baidu.com/'+result"
-    },
-    "searchUrl": "/api/stacks-search,{\"method\":\"POST\",\"body\":\"keyWord={{key}}&startPage={{page}}&isHotWorld=1\"}",
-    "weight": 0
-  },
-  {
     "bookSourceComment": "",
     "bookSourceGroup": "☃ 自用",
     "bookSourceName": "✐  番薯小说",
